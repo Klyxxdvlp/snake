@@ -257,6 +257,8 @@ function renderTime() {
 }
 
 function gameOver() {
+  fill('black');
+  stroke('green');
   createCanvas(1530, 860);
   
   text('Deine Zeit ist abgelaufen.  Dein Score war: ' + score + ' Um weiterzuspielen musst du die Seite neu laden.' , width / 2, height /2);
